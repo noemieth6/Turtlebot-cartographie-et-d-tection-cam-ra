@@ -20,6 +20,7 @@ class Odom2Pose(Node):
 
     def __init__(self):
         super().__init__("odom_to_pose")
+        self.get_logger().info("Odom2Pose node started")
 
         # Variables
         self.x_odom, self.y_odom, self.O_odom = 0.0, 0.0, 0.0
@@ -27,28 +28,32 @@ class Odom2Pose(Node):
         self.prev_right_encoder = 0.0
         self.v = 0.0
 
-        # Publishers
+        #---Publisher---#
         self.pub_enco = self.create_publisher(PoseStamped, "/pose_enco", 10)
         self.pub_path = self.create_publisher(Path, "/pose_path", 10)
 
-        # Subscribers
+        #---Subscriber---#
 
         self.sub_enco = self.create_subscription(
             SensorState, "/sensor_state", self.callback_enco, 10
         )
 
-        #tracer les poses successives
-        
+        # Pour tracer les poses successives
         self.path = Path() #permet de réinitialiser à chaque lancement
         self.path.header.frame_id = "odom"
 
     @staticmethod
     def coordinates_to_message(x: float, y: float, O: float, t: Time) -> PoseStamped:
+        """Transformation des points en message pour rviz2.
+        :return: Message PoseStamped
+        """
         msg = PoseStamped()
         msg.header.stamp = t
         msg.header.frame_id = "odom"
         msg.pose.position.x = x
         msg.pose.position.y = y
+
+        # transformation d'angles d'Euler en quaternion
         [
             msg.pose.orientation.w,
             msg.pose.orientation.x,
@@ -64,6 +69,7 @@ class Odom2Pose(Node):
         return dt
 
     def callback_enco(self, sensor_state: SensorState):
+
         # Compute the differential in encoder count
         dq_left = sensor_state.left_encoder - self.prev_left_encoder
         dq_right = sensor_state.right_encoder - self.prev_right_encoder
@@ -88,7 +94,8 @@ class Odom2Pose(Node):
         self.y_odom = self.y_odom + self.v * dt * np.sin(self.O_odom)
         self.O_odom = self.O_odom + self.w * dt 
         print(f"v: {self.v}, w: {self.w}, x: {self.x_odom}, y: {self.y_odom}, O: {self.O_odom}")
-        
+
+        # Publication de la pose seule
         self.pub_enco.publish(
             Odom2Pose.coordinates_to_message(
                 self.x_odom, self.y_odom, self.O_odom, sensor_state.header.stamp
@@ -100,6 +107,8 @@ class Odom2Pose(Node):
         self.path.poses.append(Odom2Pose.coordinates_to_message(
                 self.x_odom, self.y_odom, self.O_odom, sensor_state.header.stamp
             ))
+        
+        # Publication de la trajectoire (ensemble de poses)
         self.pub_path.publish(self.path)
         print(f"Nb poses dans path: {len(self.path.poses)}")
     
