@@ -37,7 +37,7 @@ Pour l'ICP (pas complètement fonctionnel), ajoutez `rviz_config_ICP.rviz`.
 - `lidar/lidar/transformer.py` : transformation du nuage de points LiDAR
 - `lidar/lidar/clusterer.py` : clustering des points LiDAR
 - `lidar/lidar/icp_pose_estimator.py` : estimation de la pose par ICP
-- `odom/odom/odompose.py` : odométrie à partir des encodeurs et gyromètre
+- `odom/odom/odompose.py` : odométrie à partir des encodeurs 
 
 ## Auteurs
 Agathe RABASSE et Noémie THOMASSON dans le cadre de l'UV SY31 à l'UTC
