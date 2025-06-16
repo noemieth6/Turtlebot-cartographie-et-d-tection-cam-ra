@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.002121] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict()}
+[0.002226] (lidar) JobQueued: {'identifier': 'lidar', 'dependencies': OrderedDict()}
+[0.002260] (odom) JobQueued: {'identifier': 'odom', 'dependencies': OrderedDict()}
+[0.002292] (camera) JobStarted: {'identifier': 'camera'}
+[0.101554] (-) TimerEvent: {}
+[0.203055] (-) TimerEvent: {}
+[0.305360] (-) TimerEvent: {}
+[0.408424] (-) TimerEvent: {}
+[0.509055] (-) TimerEvent: {}
+[0.609747] (-) TimerEvent: {}
+[0.712900] (-) TimerEvent: {}
+[0.814080] (-) TimerEvent: {}
+[0.914963] (-) TimerEvent: {}
+[1.023345] (-) TimerEvent: {}
+[1.124994] (-) TimerEvent: {}
+[1.227173] (-) TimerEvent: {}
+[1.337644] (-) TimerEvent: {}
+[1.454732] (-) TimerEvent: {}
+[1.563594] (-) TimerEvent: {}
+[1.671605] (-) TimerEvent: {}
+[1.772341] (-) TimerEvent: {}
+[1.873334] (-) TimerEvent: {}
+[1.974012] (-) TimerEvent: {}
+[2.082997] (-) TimerEvent: {}
+[2.184032] (-) TimerEvent: {}
+[2.287181] (-) TimerEvent: {}
+[2.389024] (-) TimerEvent: {}
+[2.489464] (-) TimerEvent: {}
+[2.590642] (-) TimerEvent: {}
+[2.691414] (-) TimerEvent: {}
+[2.792342] (-) TimerEvent: {}
+[2.894514] (-) TimerEvent: {}
+[2.998086] (-) TimerEvent: {}
+[3.098822] (-) TimerEvent: {}
+[3.200148] (-) TimerEvent: {}
+[3.301536] (-) TimerEvent: {}
+[3.404105] (-) TimerEvent: {}
+[3.505325] (-) TimerEvent: {}
+[3.606247] (-) TimerEvent: {}
+[3.626862] (camera) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/sy31-labyrinthe/build/camera/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ubuntu/sy31-labyrinthe/build/camera', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'ubuntu', 'LC_TIME': 'fr_FR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fr_FR.UTF-8', 'MANAGERPID': '2443', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2570', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=953d4bf0078b14146054e21f6850647e', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/projet3/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:10690', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/humble:@/tmp/.ICE-unix/2570,unix/humble:/tmp/.ICE-unix/2570', 'INVOCATION_ID': 'a4e4c918460945d1a6e3be18a625eaa4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fr_FR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'TILIX_ID': '43be7308-bca1-4bb6-90ed-2fecefba3f27', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PJ9H82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '6', 'AMENT_PREFIX_PATH': '/home/ubuntu/projet3/install/camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/sy31-labyrinthe/build/camera', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=953d4bf0078b14146054e21f6850647e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/sy31-labyrinthe/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/sy31-labyrinthe/install/camera/lib/python3.10/site-packages:/home/ubuntu/projet3/build/camera:/home/ubuntu/projet3/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.706999] (-) TimerEvent: {}
+[3.811209] (-) TimerEvent: {}
+[3.912026] (-) TimerEvent: {}
+[4.042898] (-) TimerEvent: {}
+[4.181020] (-) TimerEvent: {}
+[4.286274] (-) TimerEvent: {}
+[4.314049] (camera) StdoutLine: {'line': b'running develop\n'}
+[4.398117] (-) TimerEvent: {}
+[4.499106] (-) TimerEvent: {}
+[4.600284] (-) TimerEvent: {}
+[4.700724] (-) TimerEvent: {}
+[4.801998] (-) TimerEvent: {}
+[4.809640] (camera) StdoutLine: {'line': b'running egg_info\n'}
+[4.809900] (camera) StdoutLine: {'line': b'creating camera.egg-info\n'}
+[4.810041] (camera) StdoutLine: {'line': b'writing camera.egg-info/PKG-INFO\n'}
+[4.810513] (camera) StdoutLine: {'line': b'writing dependency_links to camera.egg-info/dependency_links.txt\n'}
+[4.810867] (camera) StdoutLine: {'line': b'writing entry points to camera.egg-info/entry_points.txt\n'}
+[4.811165] (camera) StdoutLine: {'line': b'writing requirements to camera.egg-info/requires.txt\n'}
+[4.811444] (camera) StdoutLine: {'line': b'writing top-level names to camera.egg-info/top_level.txt\n'}
+[4.831739] (camera) StdoutLine: {'line': b"writing manifest file 'camera.egg-info/SOURCES.txt'\n"}
+[4.832000] (camera) StdoutLine: {'line': b"reading manifest file 'camera.egg-info/SOURCES.txt'\n"}
+[4.833061] (camera) StdoutLine: {'line': b"writing manifest file 'camera.egg-info/SOURCES.txt'\n"}
+[4.870738] (camera) StdoutLine: {'line': b'running build_ext\n'}
+[4.870954] (camera) StdoutLine: {'line': b'Creating /home/ubuntu/sy31-labyrinthe/install/camera/lib/python3.10/site-packages/camera.egg-link (link to .)\n'}
+[4.895351] (camera) StdoutLine: {'line': b'Installing decompressor script to /home/ubuntu/sy31-labyrinthe/install/camera/lib/camera\n'}
+[4.895585] (camera) StdoutLine: {'line': b'Installing detect_node script to /home/ubuntu/sy31-labyrinthe/install/camera/lib/camera\n'}
+[4.895675] (camera) StdoutLine: {'line': b'\n'}
+[4.895873] (camera) StdoutLine: {'line': b'Installed /home/ubuntu/sy31-labyrinthe/build/camera\n'}
+[4.895989] (camera) StdoutLine: {'line': b'running symlink_data\n'}
+[4.896065] (camera) StdoutLine: {'line': b'creating /home/ubuntu/sy31-labyrinthe/install/camera/share/ament_index\n'}
+[4.896140] (camera) StdoutLine: {'line': b'creating /home/ubuntu/sy31-labyrinthe/install/camera/share/ament_index/resource_index\n'}
+[4.896240] (camera) StdoutLine: {'line': b'creating /home/ubuntu/sy31-labyrinthe/install/camera/share/ament_index/resource_index/packages\n'}
+[4.896321] (camera) StdoutLine: {'line': b'symbolically linking /home/ubuntu/sy31-labyrinthe/build/camera/resource/camera -> /home/ubuntu/sy31-labyrinthe/install/camera/share/ament_index/resource_index/packages\n'}
+[4.896399] (camera) StdoutLine: {'line': b'symbolically linking /home/ubuntu/sy31-labyrinthe/build/camera/package.xml -> /home/ubuntu/sy31-labyrinthe/install/camera/share/camera\n'}
+[4.896474] (camera) StdoutLine: {'line': b'symbolically linking /home/ubuntu/sy31-labyrinthe/build/camera/launch/camera.launch.xml -> /home/ubuntu/sy31-labyrinthe/install/camera/share/camera\n'}
+[4.936724] (-) TimerEvent: {}
+[4.941496] (camera) CommandEnded: {'returncode': 0}
+[4.992254] (camera) JobEnded: {'identifier': 'camera', 'rc': 0}
+[4.992989] (lidar) JobStarted: {'identifier': 'lidar'}
+[5.037714] (-) TimerEvent: {}
+[5.140021] (-) TimerEvent: {}
+[5.241994] (-) TimerEvent: {}
+[5.353753] (-) TimerEvent: {}
+[5.460343] (-) TimerEvent: {}
+[5.572329] (-) TimerEvent: {}
+[5.676211] (-) TimerEvent: {}
+[5.798358] (-) TimerEvent: {}
+[5.923434] (-) TimerEvent: {}
+[6.054645] (-) TimerEvent: {}
+[6.166857] (-) TimerEvent: {}
+[6.269708] (-) TimerEvent: {}
+[6.389613] (-) TimerEvent: {}
+[6.504305] (-) TimerEvent: {}
+[6.617462] (-) TimerEvent: {}
+[6.726168] (-) TimerEvent: {}
+[6.838126] (-) TimerEvent: {}
+[6.939278] (-) TimerEvent: {}
+[7.063452] (-) TimerEvent: {}
+[7.098597] (lidar) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/sy31-labyrinthe/build/lidar/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ubuntu/sy31-labyrinthe/build/lidar', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'ubuntu', 'LC_TIME': 'fr_FR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fr_FR.UTF-8', 'MANAGERPID': '2443', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2570', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=953d4bf0078b14146054e21f6850647e', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/projet3/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:10690', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/humble:@/tmp/.ICE-unix/2570,unix/humble:/tmp/.ICE-unix/2570', 'INVOCATION_ID': 'a4e4c918460945d1a6e3be18a625eaa4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fr_FR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'TILIX_ID': '43be7308-bca1-4bb6-90ed-2fecefba3f27', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PJ9H82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '6', 'AMENT_PREFIX_PATH': '/home/ubuntu/projet3/install/camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/sy31-labyrinthe/build/lidar', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=953d4bf0078b14146054e21f6850647e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/sy31-labyrinthe/build/lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/sy31-labyrinthe/install/lidar/lib/python3.10/site-packages:/home/ubuntu/projet3/build/camera:/home/ubuntu/projet3/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.190592] (-) TimerEvent: {}
+[7.321462] (-) TimerEvent: {}
+[7.436295] (-) TimerEvent: {}
+[7.558478] (-) TimerEvent: {}
+[7.679006] (-) TimerEvent: {}
+[7.787072] (-) TimerEvent: {}
+[7.888294] (-) TimerEvent: {}
+[7.936519] (lidar) StdoutLine: {'line': b'running develop\n'}
+[7.992868] (-) TimerEvent: {}
+[8.101869] (-) TimerEvent: {}
+[8.211788] (-) TimerEvent: {}
+[8.326016] (-) TimerEvent: {}
+[8.378260] (lidar) StdoutLine: {'line': b'running egg_info\n'}
+[8.378640] (lidar) StdoutLine: {'line': b'creating lidar.egg-info\n'}
+[8.379161] (lidar) StdoutLine: {'line': b'writing lidar.egg-info/PKG-INFO\n'}
+[8.379651] (lidar) StdoutLine: {'line': b'writing dependency_links to lidar.egg-info/dependency_links.txt\n'}
+[8.380014] (lidar) StdoutLine: {'line': b'writing entry points to lidar.egg-info/entry_points.txt\n'}
+[8.380477] (lidar) StdoutLine: {'line': b'writing requirements to lidar.egg-info/requires.txt\n'}
+[8.380655] (lidar) StdoutLine: {'line': b'writing top-level names to lidar.egg-info/top_level.txt\n'}
+[8.385930] (lidar) StdoutLine: {'line': b"writing manifest file 'lidar.egg-info/SOURCES.txt'\n"}
+[8.386191] (lidar) StdoutLine: {'line': b"reading manifest file 'lidar.egg-info/SOURCES.txt'\n"}
+[8.387350] (lidar) StdoutLine: {'line': b"writing manifest file 'lidar.egg-info/SOURCES.txt'\n"}
+[8.389667] (lidar) StdoutLine: {'line': b'running build_ext\n'}
+[8.434781] (lidar) StdoutLine: {'line': b'Creating /home/ubuntu/sy31-labyrinthe/install/lidar/lib/python3.10/site-packages/lidar.egg-link (link to .)\n'}
+[8.435021] (-) TimerEvent: {}
+[8.441769] (lidar) StdoutLine: {'line': b'Installing clusterer_node script to /home/ubuntu/sy31-labyrinthe/install/lidar/lib/lidar\n'}
+[8.441985] (lidar) StdoutLine: {'line': b'Installing icp_pose_estimator_node script to /home/ubuntu/sy31-labyrinthe/install/lidar/lib/lidar\n'}
+[8.442066] (lidar) StdoutLine: {'line': b'Installing transformer_node script to /home/ubuntu/sy31-labyrinthe/install/lidar/lib/lidar\n'}
+[8.442143] (lidar) StdoutLine: {'line': b'\n'}
+[8.442224] (lidar) StdoutLine: {'line': b'Installed /home/ubuntu/sy31-labyrinthe/build/lidar\n'}
+[8.442300] (lidar) StdoutLine: {'line': b'running symlink_data\n'}
+[8.442375] (lidar) StdoutLine: {'line': b'creating /home/ubuntu/sy31-labyrinthe/install/lidar/share/ament_index\n'}
+[8.442450] (lidar) StdoutLine: {'line': b'creating /home/ubuntu/sy31-labyrinthe/install/lidar/share/ament_index/resource_index\n'}
+[8.442526] (lidar) StdoutLine: {'line': b'creating /home/ubuntu/sy31-labyrinthe/install/lidar/share/ament_index/resource_index/packages\n'}
+[8.442600] (lidar) StdoutLine: {'line': b'symbolically linking /home/ubuntu/sy31-labyrinthe/build/lidar/resource/lidar -> /home/ubuntu/sy31-labyrinthe/install/lidar/share/ament_index/resource_index/packages\n'}
+[8.442684] (lidar) StdoutLine: {'line': b'symbolically linking /home/ubuntu/sy31-labyrinthe/build/lidar/package.xml -> /home/ubuntu/sy31-labyrinthe/install/lidar/share/lidar\n'}
+[8.550993] (lidar) CommandEnded: {'returncode': 0}
+[8.551583] (-) TimerEvent: {}
+[8.551823] (lidar) JobEnded: {'identifier': 'lidar', 'rc': 0}
+[8.552289] (odom) JobStarted: {'identifier': 'odom'}
+[8.661912] (-) TimerEvent: {}
+[8.765732] (-) TimerEvent: {}
+[8.866199] (-) TimerEvent: {}
+[8.966787] (-) TimerEvent: {}
+[9.067269] (-) TimerEvent: {}
+[9.168958] (-) TimerEvent: {}
+[9.270484] (-) TimerEvent: {}
+[9.384591] (-) TimerEvent: {}
+[9.486069] (-) TimerEvent: {}
+[9.588607] (-) TimerEvent: {}
+[9.689392] (-) TimerEvent: {}
+[9.791289] (-) TimerEvent: {}
+[9.916839] (-) TimerEvent: {}
+[10.025790] (-) TimerEvent: {}
+[10.127443] (-) TimerEvent: {}
+[10.229202] (-) TimerEvent: {}
+[10.330232] (-) TimerEvent: {}
+[10.446302] (-) TimerEvent: {}
+[10.549979] (-) TimerEvent: {}
+[10.678077] (-) TimerEvent: {}
+[10.792298] (-) TimerEvent: {}
+[10.909713] (-) TimerEvent: {}
+[10.931456] (odom) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/sy31-labyrinthe/build/odom/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ubuntu/sy31-labyrinthe/build/odom', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'ubuntu', 'LC_TIME': 'fr_FR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fr_FR.UTF-8', 'MANAGERPID': '2443', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2570', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=953d4bf0078b14146054e21f6850647e', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/projet3/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:10690', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/humble:@/tmp/.ICE-unix/2570,unix/humble:/tmp/.ICE-unix/2570', 'INVOCATION_ID': 'a4e4c918460945d1a6e3be18a625eaa4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fr_FR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'TILIX_ID': '43be7308-bca1-4bb6-90ed-2fecefba3f27', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PJ9H82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '6', 'AMENT_PREFIX_PATH': '/home/ubuntu/projet3/install/camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/sy31-labyrinthe/build/odom', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=953d4bf0078b14146054e21f6850647e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/sy31-labyrinthe/build/odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/sy31-labyrinthe/install/odom/lib/python3.10/site-packages:/home/ubuntu/projet3/build/camera:/home/ubuntu/projet3/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[11.026400] (-) TimerEvent: {}
+[11.139317] (-) TimerEvent: {}
+[11.257862] (-) TimerEvent: {}
+[11.384938] (-) TimerEvent: {}
+[11.502264] (-) TimerEvent: {}
+[11.602722] (-) TimerEvent: {}
+[11.703301] (-) TimerEvent: {}
+[11.804964] (-) TimerEvent: {}
+[11.819936] (odom) StdoutLine: {'line': b'running develop\n'}
+[11.905299] (-) TimerEvent: {}
+[12.020815] (-) TimerEvent: {}
+[12.130142] (-) TimerEvent: {}
+[12.234509] (-) TimerEvent: {}
+[12.239877] (odom) StdoutLine: {'line': b'running egg_info\n'}
+[12.240090] (odom) StdoutLine: {'line': b'creating odom.egg-info\n'}
+[12.240171] (odom) StdoutLine: {'line': b'writing odom.egg-info/PKG-INFO\n'}
+[12.240246] (odom) StdoutLine: {'line': b'writing dependency_links to odom.egg-info/dependency_links.txt\n'}
+[12.240321] (odom) StdoutLine: {'line': b'writing entry points to odom.egg-info/entry_points.txt\n'}
+[12.240400] (odom) StdoutLine: {'line': b'writing requirements to odom.egg-info/requires.txt\n'}
+[12.240492] (odom) StdoutLine: {'line': b'writing top-level names to odom.egg-info/top_level.txt\n'}
+[12.240567] (odom) StdoutLine: {'line': b"writing manifest file 'odom.egg-info/SOURCES.txt'\n"}
+[12.240641] (odom) StdoutLine: {'line': b"reading manifest file 'odom.egg-info/SOURCES.txt'\n"}
+[12.240715] (odom) StdoutLine: {'line': b"writing manifest file 'odom.egg-info/SOURCES.txt'\n"}
+[12.248142] (odom) StdoutLine: {'line': b'running build_ext\n'}
+[12.248346] (odom) StdoutLine: {'line': b'Creating /home/ubuntu/sy31-labyrinthe/install/odom/lib/python3.10/site-packages/odom.egg-link (link to .)\n'}
+[12.262598] (odom) StdoutLine: {'line': b'Installing odompose_node script to /home/ubuntu/sy31-labyrinthe/install/odom/lib/odom\n'}
+[12.263376] (odom) StdoutLine: {'line': b'\n'}
+[12.263569] (odom) StdoutLine: {'line': b'Installed /home/ubuntu/sy31-labyrinthe/build/odom\n'}
+[12.263826] (odom) StdoutLine: {'line': b'running symlink_data\n'}
+[12.264145] (odom) StdoutLine: {'line': b'creating /home/ubuntu/sy31-labyrinthe/install/odom/share/ament_index\n'}
+[12.264392] (odom) StdoutLine: {'line': b'creating /home/ubuntu/sy31-labyrinthe/install/odom/share/ament_index/resource_index\n'}
+[12.264631] (odom) StdoutLine: {'line': b'creating /home/ubuntu/sy31-labyrinthe/install/odom/share/ament_index/resource_index/packages\n'}
+[12.264936] (odom) StdoutLine: {'line': b'symbolically linking /home/ubuntu/sy31-labyrinthe/build/odom/resource/odom -> /home/ubuntu/sy31-labyrinthe/install/odom/share/ament_index/resource_index/packages\n'}
+[12.286088] (odom) StdoutLine: {'line': b'symbolically linking /home/ubuntu/sy31-labyrinthe/build/odom/package.xml -> /home/ubuntu/sy31-labyrinthe/install/odom/share/odom\n'}
+[12.345743] (-) TimerEvent: {}
+[12.356826] (odom) CommandEnded: {'returncode': 0}
+[12.357296] (odom) JobEnded: {'identifier': 'odom', 'rc': 0}
+[12.359445] (-) EventReactorShutdown: {}

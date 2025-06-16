@@ -1,0 +1,1 @@
+/home/ubuntu/sy31-labyrinthe/src/camera/setup.py

@@ -1,0 +1,26 @@
+[3.625s] Invoking command in '/home/ubuntu/sy31-labyrinthe/build/camera': PYTHONPATH=/home/ubuntu/sy31-labyrinthe/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/sy31-labyrinthe/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/sy31-labyrinthe/build/camera/build --no-deps symlink_data
+[4.312s] running develop
+[4.807s] running egg_info
+[4.808s] creating camera.egg-info
+[4.808s] writing camera.egg-info/PKG-INFO
+[4.808s] writing dependency_links to camera.egg-info/dependency_links.txt
+[4.809s] writing entry points to camera.egg-info/entry_points.txt
+[4.809s] writing requirements to camera.egg-info/requires.txt
+[4.809s] writing top-level names to camera.egg-info/top_level.txt
+[4.830s] writing manifest file 'camera.egg-info/SOURCES.txt'
+[4.830s] reading manifest file 'camera.egg-info/SOURCES.txt'
+[4.831s] writing manifest file 'camera.egg-info/SOURCES.txt'
+[4.869s] running build_ext
+[4.869s] Creating /home/ubuntu/sy31-labyrinthe/install/camera/lib/python3.10/site-packages/camera.egg-link (link to .)
+[4.893s] Installing decompressor script to /home/ubuntu/sy31-labyrinthe/install/camera/lib/camera
+[4.893s] Installing detect_node script to /home/ubuntu/sy31-labyrinthe/install/camera/lib/camera
+[4.893s] 
+[4.894s] Installed /home/ubuntu/sy31-labyrinthe/build/camera
+[4.894s] running symlink_data
+[4.894s] creating /home/ubuntu/sy31-labyrinthe/install/camera/share/ament_index
+[4.894s] creating /home/ubuntu/sy31-labyrinthe/install/camera/share/ament_index/resource_index
+[4.894s] creating /home/ubuntu/sy31-labyrinthe/install/camera/share/ament_index/resource_index/packages
+[4.894s] symbolically linking /home/ubuntu/sy31-labyrinthe/build/camera/resource/camera -> /home/ubuntu/sy31-labyrinthe/install/camera/share/ament_index/resource_index/packages
+[4.894s] symbolically linking /home/ubuntu/sy31-labyrinthe/build/camera/package.xml -> /home/ubuntu/sy31-labyrinthe/install/camera/share/camera
+[4.894s] symbolically linking /home/ubuntu/sy31-labyrinthe/build/camera/launch/camera.launch.xml -> /home/ubuntu/sy31-labyrinthe/install/camera/share/camera
+[4.939s] Invoked command in '/home/ubuntu/sy31-labyrinthe/build/camera' returned '0': PYTHONPATH=/home/ubuntu/sy31-labyrinthe/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/sy31-labyrinthe/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/sy31-labyrinthe/build/camera/build --no-deps symlink_data

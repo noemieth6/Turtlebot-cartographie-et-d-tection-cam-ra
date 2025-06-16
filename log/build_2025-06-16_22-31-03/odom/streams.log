@@ -1,0 +1,24 @@
+[2.380s] Invoking command in '/home/ubuntu/sy31-labyrinthe/build/odom': PYTHONPATH=/home/ubuntu/sy31-labyrinthe/build/odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/sy31-labyrinthe/install/odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/sy31-labyrinthe/build/odom/build --no-deps symlink_data
+[3.268s] running develop
+[3.688s] running egg_info
+[3.688s] creating odom.egg-info
+[3.688s] writing odom.egg-info/PKG-INFO
+[3.688s] writing dependency_links to odom.egg-info/dependency_links.txt
+[3.688s] writing entry points to odom.egg-info/entry_points.txt
+[3.688s] writing requirements to odom.egg-info/requires.txt
+[3.688s] writing top-level names to odom.egg-info/top_level.txt
+[3.688s] writing manifest file 'odom.egg-info/SOURCES.txt'
+[3.688s] reading manifest file 'odom.egg-info/SOURCES.txt'
+[3.688s] writing manifest file 'odom.egg-info/SOURCES.txt'
+[3.696s] running build_ext
+[3.696s] Creating /home/ubuntu/sy31-labyrinthe/install/odom/lib/python3.10/site-packages/odom.egg-link (link to .)
+[3.710s] Installing odompose_node script to /home/ubuntu/sy31-labyrinthe/install/odom/lib/odom
+[3.711s] 
+[3.711s] Installed /home/ubuntu/sy31-labyrinthe/build/odom
+[3.712s] running symlink_data
+[3.712s] creating /home/ubuntu/sy31-labyrinthe/install/odom/share/ament_index
+[3.712s] creating /home/ubuntu/sy31-labyrinthe/install/odom/share/ament_index/resource_index
+[3.712s] creating /home/ubuntu/sy31-labyrinthe/install/odom/share/ament_index/resource_index/packages
+[3.713s] symbolically linking /home/ubuntu/sy31-labyrinthe/build/odom/resource/odom -> /home/ubuntu/sy31-labyrinthe/install/odom/share/ament_index/resource_index/packages
+[3.734s] symbolically linking /home/ubuntu/sy31-labyrinthe/build/odom/package.xml -> /home/ubuntu/sy31-labyrinthe/install/odom/share/odom
+[3.805s] Invoked command in '/home/ubuntu/sy31-labyrinthe/build/odom' returned '0': PYTHONPATH=/home/ubuntu/sy31-labyrinthe/build/odom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/sy31-labyrinthe/install/odom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/sy31-labyrinthe/build/odom/build --no-deps symlink_data

@@ -1,0 +1,32 @@
+<launch>
+	<node pkg ="lidar" exec="transformer_node" name="transformer">
+	</node>
+	
+	<node pkg ="lidar" exec="clusterer_node" name="clusterer">
+	</node>
+	
+	<node pkg ="lidar" exec="icp_pose_estimator_node" name="icp_pose_estimator">
+	</node>
+
+    <node pkg ="odom" exec="odompose_node" name="odompose">
+	</node>
+
+	<node pkg ="tf2_ros" exec="static_transform_publisher" args = "0 0 0 0 0 0 1 map odom">
+	</node>
+
+	<node pkg ="tf2_ros" exec="static_transform_publisher" args = "0 0 0 0 0 0 1 map base_scan">
+	</node>
+
+		<!-- Take the compressed robot's stream and republish it as a normal image -->
+	<node pkg="camera" exec="decompressor" name="decompressor" output="screen" />
+
+	<!-- Undistort the uncompressed image -->
+	<node pkg="image_proc" exec="image_proc" name="image_proc" output="screen">
+		<remap from="image" to="image_raw" />
+	</node>
+
+	<node pkg ="camera" exec="detect_node" name="detect_node">
+	</node>
+	
+	
+</launch>
