@@ -1,0 +1,4 @@
+[console_scripts]
+decompressor = camera.decompressor:main
+detect_node = camera.detect:main
+

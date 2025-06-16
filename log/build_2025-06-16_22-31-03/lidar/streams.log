@@ -1,0 +1,26 @@
+[2.106s] Invoking command in '/home/ubuntu/sy31-labyrinthe/build/lidar': PYTHONPATH=/home/ubuntu/sy31-labyrinthe/build/lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/sy31-labyrinthe/install/lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/sy31-labyrinthe/build/lidar/build --no-deps symlink_data
+[2.944s] running develop
+[3.385s] running egg_info
+[3.386s] creating lidar.egg-info
+[3.386s] writing lidar.egg-info/PKG-INFO
+[3.387s] writing dependency_links to lidar.egg-info/dependency_links.txt
+[3.387s] writing entry points to lidar.egg-info/entry_points.txt
+[3.388s] writing requirements to lidar.egg-info/requires.txt
+[3.388s] writing top-level names to lidar.egg-info/top_level.txt
+[3.393s] writing manifest file 'lidar.egg-info/SOURCES.txt'
+[3.393s] reading manifest file 'lidar.egg-info/SOURCES.txt'
+[3.394s] writing manifest file 'lidar.egg-info/SOURCES.txt'
+[3.397s] running build_ext
+[3.442s] Creating /home/ubuntu/sy31-labyrinthe/install/lidar/lib/python3.10/site-packages/lidar.egg-link (link to .)
+[3.449s] Installing clusterer_node script to /home/ubuntu/sy31-labyrinthe/install/lidar/lib/lidar
+[3.449s] Installing icp_pose_estimator_node script to /home/ubuntu/sy31-labyrinthe/install/lidar/lib/lidar
+[3.449s] Installing transformer_node script to /home/ubuntu/sy31-labyrinthe/install/lidar/lib/lidar
+[3.449s] 
+[3.449s] Installed /home/ubuntu/sy31-labyrinthe/build/lidar
+[3.449s] running symlink_data
+[3.449s] creating /home/ubuntu/sy31-labyrinthe/install/lidar/share/ament_index
+[3.450s] creating /home/ubuntu/sy31-labyrinthe/install/lidar/share/ament_index/resource_index
+[3.450s] creating /home/ubuntu/sy31-labyrinthe/install/lidar/share/ament_index/resource_index/packages
+[3.450s] symbolically linking /home/ubuntu/sy31-labyrinthe/build/lidar/resource/lidar -> /home/ubuntu/sy31-labyrinthe/install/lidar/share/ament_index/resource_index/packages
+[3.450s] symbolically linking /home/ubuntu/sy31-labyrinthe/build/lidar/package.xml -> /home/ubuntu/sy31-labyrinthe/install/lidar/share/lidar
+[3.558s] Invoked command in '/home/ubuntu/sy31-labyrinthe/build/lidar' returned '0': PYTHONPATH=/home/ubuntu/sy31-labyrinthe/build/lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/sy31-labyrinthe/install/lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/sy31-labyrinthe/build/lidar/build --no-deps symlink_data

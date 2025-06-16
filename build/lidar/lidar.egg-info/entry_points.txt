@@ -1,0 +1,5 @@
+[console_scripts]
+clusterer_node = lidar.clusterer:main
+icp_pose_estimator_node = lidar.icp_pose_estimator:main
+transformer_node = lidar.transformer:main
+
