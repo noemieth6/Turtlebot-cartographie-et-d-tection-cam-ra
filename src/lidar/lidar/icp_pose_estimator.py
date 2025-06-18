@@ -50,12 +50,17 @@ class ICPPoseEstimator(Node):
         q = msg.pose.orientation
         rot_matrix = R.from_quat([q.x, q.y, q.z, q.w]).as_matrix()
         self.ref_T[:3, :3] = rot_matrix
+
+        # Initialiser la translation depuis la position reçue
+        self.ref_T[0, 3] = msg.pose.position.x
+        self.ref_T[1, 3] = msg.pose.position.y
+        self.ref_T[2, 3] = msg.pose.position.z
+
         self.last_enco_orientation = (q.x, q.y, q.z, q.w)
   
 
 
     def cloud_callback(self, msg: PointCloud2):
-        self.get_logger().info("callback started")
 
         xyz = read_points_numpy(msg, ["x", "y", "z"])
 
@@ -69,8 +74,6 @@ class ICPPoseEstimator(Node):
             # Reference needs more than 'min_points' xyz
             if xyz.shape[0] > self.min_points:
                 pose_vect3 = ICPPoseEstimator.estimate_pose_from_points(xyz)
-                # self.ref_T = np.eye(4)
-                self.ref_T[:3, 3] = pose_vect3[:,0]
                 self.ref_points = xyz
             else:
                 self.get_logger().info("Pas assez de points")
