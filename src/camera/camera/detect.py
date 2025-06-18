@@ -154,10 +154,10 @@ class ArrowDetector(Node):
         max_blue = max([cv2.contourArea(c) for c in contours_blue], default=0)
 
         # Détermination de la direction en fonction de la plus grande zone de couleur détectée
-        if max_red > 500 and max_red>max_blue:
+        if max_red > 20000 and max_red>max_blue:
             detected_direction = "droite"
 
-        elif max_blue > 500 and max_blue>max_red:
+        elif max_blue > 20000 and max_blue>max_red:
             detected_direction = "gauche"
 
         
